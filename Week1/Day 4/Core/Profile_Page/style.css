@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+  .container {
+    width: 1000px;
+    min-height: 500px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 3px;
+  }
+  nav {
+    width: 95%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav li{
+    display: inline-block;
+    margin-right: 10px;    
+  }
+  nav ul{
+    margin-left: 200px;
+  }
+  button{
+    background-color: rgb(23,162, 184);
+    padding: 5px 15px;
+    color: white;
+    margin-right: 100px;
+  }
+  nav-ul li:nth-child(3){
+    font-weight: bold;
+  }
+  h1{
+    font-weight: lighter;
+    font-size: 25pt;
+  }
+  main{
+    width: 100%;
+    min-height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: ;
+  }
+  .main-1{
+
+    margin-top: 20px;
+    min-height: 300px;
+    margin-left: 100px;
+  }
+  .main-2{
+    margin-left: 130px;
+    margin-top: 20px;
+    min-height: 300px; 
+    margin-right: 40px;
+  }
+  .presentation > img{
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .presentation{
+    padding: 20px;
+    outline: 2px solid gray;
+    background: linear-gradient(180deg, aqua 0%, aqua 25%, white 25%, white 100%);
+  }
+  .icon{
+    width: 15px;
+    justify-self: center;
+  }
+  .education{
+    background-color: grey;
+    padding: 10px;
+    outline: 2px solid gray;
+    margin-top: 20px;
+    outline: 2px solid gray;
+    color: white;
+  }
+  .bootcamp{
+    padding: 20px;
+    outline: 2px solid gray;
+  }
+  .line1{
+    font-weight: bold;
+  }
+  .line2{
+    color: gray;
+  }
+  .bootcamp p{
+    margin-bottom: 7px;
+  }
+
+  .ul1{
+    outline: 2px solid gray;
+    margin-bottom: 50px;
+  }
+  .ul2{
+    outline: 2px solid gray;
+  }
+  .ul1 ul{
+    list-style-type: none;
+  }
+  li img{
+    width: 25px;
+    border-radius: 50%;
+  }
+  .ul2 ul{
+    list-style-type: none;
+  }
+  .ul1 ul>li:first-child {
+    background-color: gray;
+    padding: 10px;
+  }
+  .ul2 ul>li:first-child {
+    background-color: gray;
+    padding: 10px;
+  }
+  #number2{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+  }
+
+
