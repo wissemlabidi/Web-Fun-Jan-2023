@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+  .container {
+    width: 600px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    }
+    .user_card > img{
+        width: 100px;
+        border-radius: 50%;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .user_card{
+        padding: 30px;
+        outline: 3px solid gray;
+        background: linear-gradient(180deg, aqua 0%, aqua 25%, white 25%, white 100%);
+    }
+    .icon{
+        width: 15px;
+        justify-self: center;
+        margin-right: 5px;
+    }
+    
+   
