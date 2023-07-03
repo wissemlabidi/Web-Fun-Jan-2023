@@ -1,0 +1,33 @@
+.but1{
+    height: 30px;
+    width: 150px;
+    font-size: x-large;
+    border-radius: 10px;
+    color: aqua;
+    outline: 2px solid aqua;
+    border: none
+}
+.but2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: x-large;
+    color: white;
+    background-color: aqua;
+    border: none;
+    margin-top: 10px;
+    display: block;
+}
+.but3{
+    height: 30px;
+    width: 200px;
+    font-size: x-large;
+    color: white;
+    background-color: blue;
+    box-shadow: 3px 3px black;
+    margin-top: 10px;
+    display: block;
+}
+body{
+    padding: 50px;
+}
